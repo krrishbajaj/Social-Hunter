@@ -19,58 +19,40 @@ Social Hunter Tool allows users to extract and analyze social media links from w
 ## Dependencies
 The tool automatically installs required dependencies if they are missing.
 
-## Usage
-Run the following command:
-```bash
-social_hunter.exe -i input.txt -o output.html
+## Tool INstalling Guide on Kali Linux, follow these steps:
 
+## 1. Install Required Dependencies
+Ensure Python and pip are installed if not run these:
 
+1. sudo apt update
+2. sudo apt install python3 python3-pip
 
-Tool INstalling Guide on Kali Linux, follow these steps:
+# Then Run This Command: 
 
-1. Install Required Dependencies
-Ensure Python and pip are installed:
+1. pip3 install -r requirements.txt
 
-bash
-Copy code
-sudo apt update
-sudo apt install python3 python3-pip
-If the tool includes a requirements.txt file, install the dependencies:
+# Make the Tool Executable
+If your tool is packaged as a Python script, make it executable
 
-bash
-Copy code
-pip3 install -r requirements.txt
-2. Make the Tool Executable
-If your tool is packaged as a Python script, make it executable:
+1. chmod +x social_hunter
+   
 
-bash
-Copy code
-chmod +x tool.py
-If the tool is compiled (e.g., .sh, .bin, or a standalone executable), ensure it has execute permissions:
+# Run the Tool
 
-bash
-Copy code
-chmod +x social_hunter
-3. Run the Tool
-For a Python script:
-bash
-Copy code
-python3 tool.py -i input.txt -o output.html
-For a compiled executable:
-Run it directly:
+1. python3 tool.py -i input.txt -o output.html
+                       OR
 
-bash
-Copy code
 ./social_hunter -i input.txt -o output.html
-4. View the HTML Output
+
+# View the HTML Output
 After execution, the tool generates an HTML file (e.g., output.html). Open it using a browser:
 
-bash
-Copy code
-firefox output.html
-5. Automate Dependency Installation (Optional)
-If the tool automates dependency installation, ensure it runs with sudo permissions to avoid permission issues:
+1. firefox output.html
 
-bash
-Copy code
-sudo python3 tool.py -i input.txt -o output.html
+## Usage
+Run the following command:
+
+Command: social_hunter.exe -i input.txt -o output.html
+
+
+
