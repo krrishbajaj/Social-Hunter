@@ -24,6 +24,7 @@ The tool automatically installs required dependencies if they are missing.
 ## 1. Install Required Dependencies
 Ensure Python and pip are installed if not run these:
 
+# Git clone https://github.com/krrishbajaj/Social-Hunter.git
 1. sudo apt update
 2. sudo apt install python3 python3-pip
 
@@ -39,8 +40,8 @@ If your tool is packaged as a Python script, make it executable
 
 # Run the Tool
 
-1. python3 tool.py -i input.txt -o output.html
-                       OR
+1. python tool.py -i input.txt -o output.html    (python version -> 3)
+                          OR
 
 ./social_hunter -i input.txt -o output.html
 
