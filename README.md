@@ -1,4 +1,4 @@
-# Social-Hunter
+# Social-Hunter 
 Social Hunter: A powerful tool to extract and analyze social media links from websites. It automates link detection, saves results in a visually appealing HTML report, and provides unique insights. Fast, user-friendly, and requires no programming knowledge. Ideal for researchers, marketers, and cybersecurity professionals.
 
 
@@ -24,36 +24,36 @@ The tool automatically installs required dependencies if they are missing.
 ## 1. Install Required Dependencies
 Ensure Python and pip are installed if not run these:
 
-1. Git clone https://github.com/krrishbajaj/Social-Hunter.git
-2. sudo apt update
-3. sudo apt install python3 python3-pip
+1. <code>Git clone https://github.com/krrishbajaj/Social-Hunter.git</code>
+
+2. <code>sudo apt update</code>
+
+3. <code>sudo apt install python3 python3-pip</code>
 
 # Then Run This Command: 
 
-1. pip3 install -r requirements.txt
+1. <code>pip install -r requirements.txt</code>
 
-# Make the Tool Executable for kali Linux Users:
+# Make the Tool Executable for both Windows and  kali Linux Users:
 If your tool is packaged as a Python script, make it executable
 
-1. chmod +x social_hunter
+1. <code>python social_hunter.py -i input.txt -o output.txt</code>
    
 
 # Run the Tool
 
-1. python tool.py -i input.txt -o output.html    (python version -> 3)
-                          OR
-
-./social_hunter -i input.txt -o output.html
+ <code>python tool.py -i input.txt -o output.html</code>    (python version -> 3)
+                         
 
 # View the HTML Output
 After execution, the tool generates an HTML file (e.g., output.html). Open it using a browser:
 
-1. firefox output.html
+<code>firefox output.html</code>
 
 ## Usage
 Run the following command:
 
-Command: python social_hunter.py -i input.txt -o output.html
+Command: <code>python social_hunter.py -i input.txt -o output.html</code>
 
 
 -i  -->  Single Domain   or  File path containing Subdomains
