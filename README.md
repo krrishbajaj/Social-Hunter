@@ -58,3 +58,13 @@ Command: python social_hunter.py -i input.txt -o output.html
 -i  -->  Single Domain   or  File path containing Subdomains
 
 -o  --> Output Save
+
+
+SS: 
+
+![image](https://github.com/user-attachments/assets/e36027fd-369e-4f44-b20b-eda3fb5ac13b)
+
+![image](https://github.com/user-attachments/assets/c715cd7c-9d48-4df6-968f-1fbafb37f89b)
+
+![image](https://github.com/user-attachments/assets/82d311b8-7f56-4dd8-9817-7ab7381e74b4)
+
