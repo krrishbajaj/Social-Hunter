@@ -61,7 +61,7 @@ Command: python social_hunter.py -i input.txt -o output.html
 -o  --> Output Save
 
 
-SS: 
+# ScreenShots: 
 
 ![image](https://github.com/user-attachments/assets/e36027fd-369e-4f44-b20b-eda3fb5ac13b)
 
