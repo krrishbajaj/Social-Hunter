@@ -52,7 +52,9 @@ After execution, the tool generates an HTML file (e.g., output.html). Open it us
 ## Usage
 Run the following command:
 
-Command: social_hunter.exe -i input.txt -o output.html
+Command: python social_hunter.py -i input.txt -o output.html
 
 
+-i  -->  Single Domain   or  File path containing Subdomains
 
+-o  --> Output Save
