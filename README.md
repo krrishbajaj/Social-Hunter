@@ -24,15 +24,15 @@ The tool automatically installs required dependencies if they are missing.
 ## 1. Install Required Dependencies
 Ensure Python and pip are installed if not run these:
 
-# Git clone https://github.com/krrishbajaj/Social-Hunter.git
-1. sudo apt update
-2. sudo apt install python3 python3-pip
+1. Git clone https://github.com/krrishbajaj/Social-Hunter.git
+2. sudo apt update
+3. sudo apt install python3 python3-pip
 
 # Then Run This Command: 
 
 1. pip3 install -r requirements.txt
 
-# Make the Tool Executable
+# Make the Tool Executable for kali Linux Users:
 If your tool is packaged as a Python script, make it executable
 
 1. chmod +x social_hunter
